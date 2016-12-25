@@ -1,0 +1,82 @@
+body {
+
+line-height: 1.5;
+padding: 40px 0px;
+margin: 0;
+color: #555
+}
+
+div, h1 {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+h2 {
+  margin-top: 10px;
+  padding-top: 1em;
+}
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.uptop {
+  position: fixed;
+  bottom: 0px;
+  right: 100px;
+}
+/*.modal {
+  background: #eee;
+  opacity: .4;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 300%;
+}*/
+pre {
+  padding: 10px;
+  border-left: 2px solid #69c;
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+h2 {
+color: #e81c4f
+}
+iframe {
+  max-width: 100%;
+}
+
+form {
+  background: black;
+  padding: 50px;
+}
+input {
+  display: inline-block;
+  height: 50px;
+  border: none;
+}
+.email {
+  background: transparent;
+  border: solid 1px #eee;
+  box-sizing: border-box;
+  padding-left: 15px;
+  width: 60%;
+  color: white;
+}
+.email:focus {
+  outline: none;
+}
+.submit {
+  background: white;
+  color: black;
+  width: 40%;
+  text-transform: uppercase;
+}
+.full-width {
+  max-width: none;
+}
